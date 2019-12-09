@@ -11,8 +11,8 @@ count = len(arguments)
 
 total = 0
 
-for arg in sys.argv[1]:
-	total = total + int(sys.argv[1])
+total = total + int(sys.argv[1])
+
 
 avg = total / count
 
