@@ -11,6 +11,8 @@ count = len(arguments)
 
 sum = 0
 
+sum = sum +  len(arguments)
+
 avg = sum / count
 
 
