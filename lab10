@@ -1,16 +1,18 @@
-#! /usr/bin/python3
+#! /usr/bin/python
 
 num = len(sys.argv)-1
 
 sum = 0
 
-for arg in sys.argv [1:];
+for arg in sys.argv[1:];
 
-	sum=sum+arg
+sum = sum+arg
 
-	avg= sum/num
+avg = sum/num
 
-sum+=arg	print("Average =" avg)
+sum+=arg	
+
+print("Average =" avg)
 
 
 
