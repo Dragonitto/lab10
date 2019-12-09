@@ -4,13 +4,13 @@ num = len(sys.argv)-1
 
 sum = 0
 
-for arg in sys.argv[1:];
+for arg in sys.argv [1:];
 
 	sum=sum+arg
 
 	avg= sum/num
 
-print("Average =" avg)
+sum+=arg	print("Average =" avg)
 
 
 
