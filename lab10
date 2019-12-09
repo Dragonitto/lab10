@@ -14,7 +14,7 @@ sum = 0
 avg = sum / count
 
 
-print ('The average of the', count, 'numbers is: '   )
+print ('The average of the', count, 'numbers is: ', avg   )
 
 
 
