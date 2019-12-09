@@ -1,18 +1,21 @@
-#! /usr/bin/python
+#! /usr/bin/python3
 
-num = len(sys.argv)-1
+
+import sys
+lab10 = sys.argv[0]
+arguments = sys.argv[1:]
+
+
+
+count = len(arguments)
 
 sum = 0
 
-for arg in sys.argv[1:];
+avg = sum / count
 
-sum = sum+arg
 
-avg = sum/num
+print ('The average of the', count, 'numbers is: '   )
 
-sum+=arg	
-
-print("Average =" avg)
 
 
 
