@@ -9,14 +9,23 @@ arguments = sys.argv[1:]
 
 count = len(arguments)
 
-sum = 0
+total = 0
 
-sum = sum +  len(arguments)
+for arg in sys.argv[1]:
+	total = total + int(sys.argv[1])
 
-avg = sum / count
+avg = total / count
 
 
-print ('The average of the', count, 'numbers is: ', avg   )
+print ('The average of the', count, 'numbers is: ' , avg  )
+
+
+ 
+
+
+
+
+
 
 
 
